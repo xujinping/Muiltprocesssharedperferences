@@ -1,0 +1,2 @@
+# Muiltprocesssharedperferences
+支持跨进程，多进程本地持久化的 SharedPerferences
