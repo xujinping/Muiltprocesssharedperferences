@@ -1,2 +1,4 @@
 # Muiltprocesssharedperferences
-支持跨进程，多进程本地持久化的 SharedPerferences
+由于Android 系统的SharedPreferences不支持多进程操作，Context.MODE_MULTI_PROCESS 并不能保证多进程下Sp是有效的
+所以Android 在2.3以后该标记被废弃了。官方建议：当需要夸进程做标记时，请使用ContentProvider。
+该类是基于ContentProvider 实现支持跨进程的SharedPreferences
